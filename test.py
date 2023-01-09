@@ -5,3 +5,10 @@ for i in "abcdefg":
 
 def something():
     print("Hello world")
+
+def canitwork(msg):
+    def idunknow():
+        return "HI" + msg
+
+message = canitwork("Blek")
+print(message)
