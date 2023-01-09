@@ -5,7 +5,7 @@ for i in "abcdefg":
 
 def something():
     print("Hello world")
-
+#decorator i think. probably doesnt work
 def canitwork(msg):
     def idunknow():
         return "HI" + msg
