@@ -9,6 +9,7 @@ def something():
 def canitwork(msg):
     def idunknow():
         return "HI" + msg
+    return idunknow()
 
 message = canitwork("Blek")
 print(message)
